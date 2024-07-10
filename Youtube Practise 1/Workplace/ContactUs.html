@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Cat Website Design</title>
+        <link rel="stylesheet" type="text/css" href="stylee.css">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+
+       <script src="https://kit.fontawesome.com/aa3d8d6e3f.js" crossorigin="anonymous"></script>
+
+       
+
+
+    </head>
+   
+    <body>
+        <section class="sub-header-contact-us">
+            <nav>
+                <a href="index.html"><img src="/Users/homanpan/Desktop/Youtube Practise 1/Workplace/photo/image.png" class="icon"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()" id="close"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT</a></li>
+                        <li><a href="Course.html">PURPOSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="ContactUs.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"id="menu"></i>
+            </nav>
+            <h1>contact-us</h1>
+
+          
+
+        </section>
+
+<!---------contact us content------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14764.983165105034!2d114.1692946724073!3d22.30654222710189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400e8083b3883%3A0xe8d3959cd62cf38e!2z5rK56bq75ZywUmVzZWFyY2ggT2ZmaWNlLCBSb29tIFo0MDQsIDQvRiwgQmxvY2sgWiwgVGhlIEhvbmcgS29uZyBQb2x5dGVjaG5pYyBVbml2ZXJzaXR5LCBIdW5nIEhvbSwgS293bG9vbiwgSG9uZyBLb25n6aaZ5riv55CG5bel5aSn5a24WuW6pw!5e0!3m2!1szh-TW!2shk!4v1720584314010!5m2!1szh-TW!2shk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<!---------contact us content------->
+
+<section class="contact-us">
+   
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5>香港理工大學Z座</h5>
+                    <p>油麻地Research Office, Room Z404, 4/F, Block Z, The Hong Kong Polytechnic University, Hung Hom, Kowloon, Hong Kong</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>+852 5365 5673</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info.gmail.hk</h5>
+                    <p>Email Us Your Enquiries</p>
+                </span>
+            </div>
+        </div>
+
+    <div class="contct-col-right">
+         <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter email address" required>
+            <input type="text" name="subject" placeholder="Enter your subject" required>
+            <textarea row="8"  name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="hero-btn red-btn">Send Message</button>   
+         </form>
+      </div>
+    </div>
+
+</div>
+</section>
+
+
+
+
+
+
+<!-------------------Footer------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Click to find out more about us!</p>
+    <div>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i></p>
+</section>
+
+
+
+
+
+
+
+
+<!-----Javascript for Toggle Menu---->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+    </body>
+    
+    
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Cat Website Design</title>
+        <link rel="stylesheet" type="text/css" href="stylee.css">
+        <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+
+       <script src="https://kit.fontawesome.com/aa3d8d6e3f.js" crossorigin="anonymous"></script>
+
+       
+
+
+    </head>
+   
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="/Users/homanpan/Desktop/Youtube Practise 1/Workplace/photo/image.png" class="icon"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()" id="close"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="AboutUs.html">ABOUT</a></li>
+                        <li><a href="Course.html">PURPOSE</a></li>
+                        <li><a href="Blog.html">BLOG</a></li>
+                        <li><a href="ContactUs.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"id="menu"></i>
+            </nav>
+            <h1>About Us</h1>
+
+          
+
+        </section>
+
+
+<!---------about us content------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Vivian's Cat Memes Website</h1>
+            <p>Welcome to the ultimate destination for feline fun and laughter – our cat memes website! If you're a cat lover, a fan of wholesome and hilarious content, or simply in need of a pick-me-up, you're in the right place. Our curated collection of cat memes is guaranteed to bring a smile to your face and warmth to your heart. From sassy tabbies to playful kittens, our memes capture the endearing, quirky, and downright adorable moments that make cats the internet's favorite companions. Join us in celebrating the irresistible charm of our feline friends through a purr-fect medley of laughter-inducing memes. Get ready to embark on a whimsical journey into the world of cat memes – where every click brings a moment of joy!</p>
+            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="file:///Users/homanpan/Desktop/Youtube%20Practise%201/Workplace/photo/Us.jpeg">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-------------------Footer------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Click to find out more about us!</p>
+    <div>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-square-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i></p>
+</section>
+
+
+
+
+
+
+
+
+<!-----Javascript for Toggle Menu---->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+</script>
+
+    </body>
+    
+    
+</html>
